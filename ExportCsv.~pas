@@ -1,0 +1,16 @@
+unit ExportCsv;
+
+interface
+
+uses
+  ShellAPI;
+
+type
+  public
+    procedure ExportarCSVDataSet(Sender: TObject; Grid: TDBGrid);
+    procedure ExportarCSVDBGrid(Sender: TObject; Grid: TDBGrid);
+end;
+
+implementation
+
+end.
